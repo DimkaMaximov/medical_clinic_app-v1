@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>medical-clinic</artifactId>
+        <artifactId>medical-monitoring</artifactId>
         <groupId>liga.internship</groupId>
         <version>0.0.1</version>
     </parent>
@@ -47,22 +47,22 @@
             </dependency>
             <dependency>
                 <groupId>liga.internship</groupId>
-                <artifactId>medical-core-api</artifactId>
+                <artifactId>monitoring-core-api</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>liga.internship</groupId>
-                <artifactId>medical-dto</artifactId>
+                <artifactId>monitoring-dto</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>liga.internship</groupId>
-                <artifactId>medical-utils</artifactId>
+                <artifactId>monitoring-utils</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>liga.internship</groupId>
-                <artifactId>medical-core</artifactId>
+                <artifactId>monitoring-core</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

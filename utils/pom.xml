@@ -12,7 +12,7 @@
     </parent>
 
     <packaging>jar</packaging>
-    <artifactId>medical-utils</artifactId>
+    <artifactId>monitoring-utils</artifactId>
 
     <dependencies>
         <dependency>
@@ -21,7 +21,7 @@
         </dependency>
         <dependency>
             <groupId>liga.internship</groupId>
-            <artifactId>medical-dto</artifactId>
+            <artifactId>monitoring-dto</artifactId>
         </dependency>
     </dependencies>
 

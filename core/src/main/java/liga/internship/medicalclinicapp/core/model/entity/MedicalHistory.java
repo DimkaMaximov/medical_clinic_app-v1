@@ -9,6 +9,8 @@ import java.util.List;
 @Data
 @Entity
 @Table (name = "medical_history")
+@AllArgsConstructor
+@NoArgsConstructor
 public class MedicalHistory {
 
     @Id
