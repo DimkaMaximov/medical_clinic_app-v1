@@ -1,6 +1,7 @@
 package liga.internship.medicalclinicapp.core.model.entity;
 
 import lombok.Data;
+import lombok.*;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

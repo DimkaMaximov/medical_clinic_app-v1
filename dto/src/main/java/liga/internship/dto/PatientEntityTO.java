@@ -1,6 +1,10 @@
 package liga.internship.dto;
 
+import javassist.NotFoundException;
+import liga.internship.medicalclinicapp.core.model.entity.Gender;
+import lombok.*;
 import java.time.LocalDate;
+import javax.persistence.*;
 
 @Data
 @Entity
@@ -8,6 +12,7 @@ import java.time.LocalDate;
 @NoArgsConstructor
 public class PatientEntityTO {
 
+    @Id
     private Long id;
 
     private String name;
