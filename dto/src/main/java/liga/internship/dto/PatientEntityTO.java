@@ -1,10 +1,12 @@
 package liga.internship.dto;
 
-import javassist.NotFoundException;
-import liga.internship.medicalclinicapp.core.model.entity.Gender;
-import lombok.*;
+//import liga.internship.medicalclinicapp.core.model.entity.Gender;
+import lombok.NoArgsConstructor;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import java.time.LocalDate;
-import javax.persistence.*;
+import javax.persistence.Id;
+import javax.persistence.Entity;
 
 @Data
 @Entity

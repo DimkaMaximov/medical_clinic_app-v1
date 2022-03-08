@@ -1,11 +1,11 @@
 package liga.internship.dto;
 
 import java.time.LocalDateTime;
-import java.util.List;
+//import java.util.List;
 
-import liga.internship.medicalclinicapp.core.model.entity.MedicalHistory;
-import liga.internship.medicalclinicapp.core.model.entity.PatientEntity;
-import lombok.*;
+import lombok.Data;
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
